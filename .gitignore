@@ -1,0 +1,16 @@
+data/
+
+__pycache__/
+fieldtrip-20251103/
+megconnectome-3.0/
+v0-old/
+venv/
+
+workbench-linux64-v2.1.0.zip
+
+test.py
+test2.py
+fig_structural_edr_geometric_brains.pdf
+fig_structural_vs_random_functional_brains.pdf
+
+Simplified_Phase_Transition_ROI100.png
