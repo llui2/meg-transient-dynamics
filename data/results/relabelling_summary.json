@@ -1,0 +1,708 @@
+{
+  "models": {
+    "Structural": {
+      "original_r2": {
+        "mean": 0.3476481321667888,
+        "ci": [
+          0.32616011568871583,
+          0.3690600371645359
+        ]
+      },
+      "scrambled_r2": {
+        "mean": 0.34281911033447254,
+        "ci": [
+          0.32281328935506987,
+          0.36181710845073384
+        ]
+      },
+      "fit_change": {
+        "mean": -0.004829021832316286,
+        "ci": [
+          -0.010069564919341306,
+          9.851052828008861e-05
+        ]
+      },
+      "overlap": {
+        "mean": 0.7455550156324839,
+        "ci": [
+          0.7396025790266295,
+          0.7516158375470263
+        ]
+      },
+      "participants_improved": 20,
+      "networks_improved": 9,
+      "original_minus_original_structural": {
+        "mean": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "scrambled_minus_original_structural": {
+        "mean": -0.004829021832316286,
+        "ci": [
+          -0.010069564919341306,
+          9.851052828008861e-05
+        ]
+      }
+    },
+    "EDR": {
+      "original_r2": {
+        "mean": 0.22915378594110386,
+        "ci": [
+          0.2140702157174151,
+          0.24401491459665534
+        ]
+      },
+      "scrambled_r2": {
+        "mean": 0.23667816130676844,
+        "ci": [
+          0.2213284049993113,
+          0.25109727752095373
+        ]
+      },
+      "fit_change": {
+        "mean": 0.007524375365664547,
+        "ci": [
+          0.004195701371883113,
+          0.010788858368609938
+        ]
+      },
+      "overlap": {
+        "mean": 0.7332381575228089,
+        "ci": [
+          0.727779184731101,
+          0.7391890442354274
+        ]
+      },
+      "participants_improved": 39,
+      "networks_improved": 20,
+      "original_minus_original_structural": {
+        "mean": -0.11849434622568492,
+        "ci": [
+          -0.12743067400092664,
+          -0.10945151221820616
+        ]
+      },
+      "scrambled_minus_original_structural": {
+        "mean": -0.11096997086002036,
+        "ci": [
+          -0.11961776512645902,
+          -0.10240606474473837
+        ]
+      }
+    },
+    "Geometric": {
+      "original_r2": {
+        "mean": 0.22554987637914636,
+        "ci": [
+          0.2115055535838511,
+          0.23930701419382197
+        ]
+      },
+      "scrambled_r2": {
+        "mean": 0.22407417651980627,
+        "ci": [
+          0.20963471116059143,
+          0.2378894640318188
+        ]
+      },
+      "fit_change": {
+        "mean": -0.001475699859340098,
+        "ci": [
+          -0.006336400220212358,
+          0.0034955314400608823
+        ]
+      },
+      "overlap": {
+        "mean": 0.7683164980653349,
+        "ci": [
+          0.7632230674854207,
+          0.7735012419182733
+        ]
+      },
+      "participants_improved": 25,
+      "networks_improved": 11,
+      "original_minus_original_structural": {
+        "mean": -0.12209825578764245,
+        "ci": [
+          -0.13238124229043993,
+          -0.1121879770374746
+        ]
+      },
+      "scrambled_minus_original_structural": {
+        "mean": -0.12357395564698256,
+        "ci": [
+          -0.13310647083768454,
+          -0.11416861748640932
+        ]
+      }
+    }
+  },
+  "paired_family_contrasts": {
+    "Original Structural minus EDR": {
+      "mean": 0.11849434622568492,
+      "ci": [
+        0.10945151221820616,
+        0.1274306740009266
+      ]
+    },
+    "Scrambled Structural minus EDR": {
+      "mean": 0.1061409490277041,
+      "ci": [
+        0.1003717743097531,
+        0.11184252628880623
+      ]
+    },
+    "Original Structural minus Geometric": {
+      "mean": 0.12209825578764245,
+      "ci": [
+        0.11218797703747459,
+        0.13238124229043993
+      ]
+    },
+    "Scrambled Structural minus Geometric": {
+      "mean": 0.11874493381466625,
+      "ci": [
+        0.11215695634204836,
+        0.12499958708667762
+      ]
+    }
+  },
+  "spectrum_distance": [
+    {
+      "model": "Structural",
+      "network": 1,
+      "zero_modes": 0,
+      "relative_rms": 1.4760481565718167e-15
+    },
+    {
+      "model": "Structural",
+      "network": 2,
+      "zero_modes": 0,
+      "relative_rms": 6.66784307939262e-16
+    },
+    {
+      "model": "Structural",
+      "network": 3,
+      "zero_modes": 0,
+      "relative_rms": 7.117139932287921e-16
+    },
+    {
+      "model": "Structural",
+      "network": 4,
+      "zero_modes": 0,
+      "relative_rms": 1.1485457322715446e-15
+    },
+    {
+      "model": "Structural",
+      "network": 5,
+      "zero_modes": 0,
+      "relative_rms": 9.547306252614645e-16
+    },
+    {
+      "model": "Structural",
+      "network": 6,
+      "zero_modes": 0,
+      "relative_rms": 7.522899712992356e-16
+    },
+    {
+      "model": "Structural",
+      "network": 7,
+      "zero_modes": 0,
+      "relative_rms": 2.0956912389558323e-15
+    },
+    {
+      "model": "Structural",
+      "network": 8,
+      "zero_modes": 0,
+      "relative_rms": 1.09479435320757e-15
+    },
+    {
+      "model": "Structural",
+      "network": 9,
+      "zero_modes": 0,
+      "relative_rms": 1.0173726405202458e-15
+    },
+    {
+      "model": "Structural",
+      "network": 10,
+      "zero_modes": 0,
+      "relative_rms": 8.494896129798075e-16
+    },
+    {
+      "model": "Structural",
+      "network": 11,
+      "zero_modes": 0,
+      "relative_rms": 8.300791468605747e-16
+    },
+    {
+      "model": "Structural",
+      "network": 12,
+      "zero_modes": 0,
+      "relative_rms": 8.02153762671321e-16
+    },
+    {
+      "model": "Structural",
+      "network": 13,
+      "zero_modes": 0,
+      "relative_rms": 1.1022440458580422e-15
+    },
+    {
+      "model": "Structural",
+      "network": 14,
+      "zero_modes": 0,
+      "relative_rms": 7.907906479284009e-16
+    },
+    {
+      "model": "Structural",
+      "network": 15,
+      "zero_modes": 0,
+      "relative_rms": 1.1707574931586917e-15
+    },
+    {
+      "model": "Structural",
+      "network": 16,
+      "zero_modes": 0,
+      "relative_rms": 1.4545700672172163e-15
+    },
+    {
+      "model": "Structural",
+      "network": 17,
+      "zero_modes": 0,
+      "relative_rms": 5.930572366259554e-16
+    },
+    {
+      "model": "Structural",
+      "network": 18,
+      "zero_modes": 0,
+      "relative_rms": 1.1473168421486102e-15
+    },
+    {
+      "model": "Structural",
+      "network": 19,
+      "zero_modes": 0,
+      "relative_rms": 9.684568377847695e-16
+    },
+    {
+      "model": "Structural",
+      "network": 20,
+      "zero_modes": 0,
+      "relative_rms": 1.1277203347696389e-15
+    },
+    {
+      "model": "Structural",
+      "network": 21,
+      "zero_modes": 0,
+      "relative_rms": 7.39595860641136e-16
+    },
+    {
+      "model": "Structural",
+      "network": 22,
+      "zero_modes": 0,
+      "relative_rms": 6.802361854515147e-16
+    },
+    {
+      "model": "Structural",
+      "network": 23,
+      "zero_modes": 0,
+      "relative_rms": 8.810438230191161e-16
+    },
+    {
+      "model": "Structural",
+      "network": 24,
+      "zero_modes": 0,
+      "relative_rms": 1.0829526180642778e-15
+    },
+    {
+      "model": "Structural",
+      "network": 25,
+      "zero_modes": 0,
+      "relative_rms": 5.713840589004704e-16
+    },
+    {
+      "model": "EDR",
+      "network": 1,
+      "zero_modes": 0,
+      "relative_rms": 1.280322298440269e-15
+    },
+    {
+      "model": "EDR",
+      "network": 2,
+      "zero_modes": 0,
+      "relative_rms": 2.7676545933927337e-15
+    },
+    {
+      "model": "EDR",
+      "network": 3,
+      "zero_modes": 0,
+      "relative_rms": 2.8475023018097603e-15
+    },
+    {
+      "model": "EDR",
+      "network": 4,
+      "zero_modes": 0,
+      "relative_rms": 1.7703564380894983e-15
+    },
+    {
+      "model": "EDR",
+      "network": 5,
+      "zero_modes": 0,
+      "relative_rms": 1.395889268453754e-15
+    },
+    {
+      "model": "EDR",
+      "network": 6,
+      "zero_modes": 0,
+      "relative_rms": 1.9617362545389314e-15
+    },
+    {
+      "model": "EDR",
+      "network": 7,
+      "zero_modes": 0,
+      "relative_rms": 2.6555575517815632e-15
+    },
+    {
+      "model": "EDR",
+      "network": 8,
+      "zero_modes": 0,
+      "relative_rms": 1.435080487876517e-15
+    },
+    {
+      "model": "EDR",
+      "network": 9,
+      "zero_modes": 0,
+      "relative_rms": 1.5142567555445993e-15
+    },
+    {
+      "model": "EDR",
+      "network": 10,
+      "zero_modes": 0,
+      "relative_rms": 2.1941497751211107e-15
+    },
+    {
+      "model": "EDR",
+      "network": 11,
+      "zero_modes": 0,
+      "relative_rms": 1.4144728956434557e-15
+    },
+    {
+      "model": "EDR",
+      "network": 12,
+      "zero_modes": 0,
+      "relative_rms": 2.0497305478447064e-15
+    },
+    {
+      "model": "EDR",
+      "network": 13,
+      "zero_modes": 0,
+      "relative_rms": 1.5308806810249536e-15
+    },
+    {
+      "model": "EDR",
+      "network": 14,
+      "zero_modes": 0,
+      "relative_rms": 1.8806151886898865e-15
+    },
+    {
+      "model": "EDR",
+      "network": 15,
+      "zero_modes": 0,
+      "relative_rms": 2.4833967119208884e-15
+    },
+    {
+      "model": "EDR",
+      "network": 16,
+      "zero_modes": 0,
+      "relative_rms": 1.861219561428668e-15
+    },
+    {
+      "model": "EDR",
+      "network": 17,
+      "zero_modes": 0,
+      "relative_rms": 2.0430766502261257e-15
+    },
+    {
+      "model": "EDR",
+      "network": 18,
+      "zero_modes": 0,
+      "relative_rms": 2.0891011052962336e-15
+    },
+    {
+      "model": "EDR",
+      "network": 19,
+      "zero_modes": 0,
+      "relative_rms": 2.237332749885617e-15
+    },
+    {
+      "model": "EDR",
+      "network": 20,
+      "zero_modes": 0,
+      "relative_rms": 2.533961276263546e-15
+    },
+    {
+      "model": "EDR",
+      "network": 21,
+      "zero_modes": 0,
+      "relative_rms": 2.4346893269433622e-15
+    },
+    {
+      "model": "EDR",
+      "network": 22,
+      "zero_modes": 0,
+      "relative_rms": 1.851545295632369e-15
+    },
+    {
+      "model": "EDR",
+      "network": 23,
+      "zero_modes": 0,
+      "relative_rms": 9.76919971044965e-16
+    },
+    {
+      "model": "EDR",
+      "network": 24,
+      "zero_modes": 0,
+      "relative_rms": 1.1518966516961023e-15
+    },
+    {
+      "model": "EDR",
+      "network": 25,
+      "zero_modes": 0,
+      "relative_rms": 1.8934796200567714e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 1,
+      "zero_modes": 0,
+      "relative_rms": 1.7565306255610734e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 2,
+      "zero_modes": 0,
+      "relative_rms": 1.095822774178249e-14
+    },
+    {
+      "model": "Geometric",
+      "network": 3,
+      "zero_modes": 0,
+      "relative_rms": 1.9747375754385446e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 4,
+      "zero_modes": 0,
+      "relative_rms": 2.408267004618695e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 5,
+      "zero_modes": 0,
+      "relative_rms": 7.054461666899015e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 6,
+      "zero_modes": 0,
+      "relative_rms": 6.22469210432464e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 7,
+      "zero_modes": 0,
+      "relative_rms": 2.5494958013324493e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 8,
+      "zero_modes": 0,
+      "relative_rms": 4.881398854365069e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 9,
+      "zero_modes": 0,
+      "relative_rms": 3.0527210408417685e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 10,
+      "zero_modes": 0,
+      "relative_rms": 1.9062872835155753e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 11,
+      "zero_modes": 0,
+      "relative_rms": 2.02008423267431e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 12,
+      "zero_modes": 0,
+      "relative_rms": 6.263176946051583e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 13,
+      "zero_modes": 0,
+      "relative_rms": 3.6544157713829125e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 14,
+      "zero_modes": 0,
+      "relative_rms": 3.443471179733664e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 15,
+      "zero_modes": 0,
+      "relative_rms": 6.282748128480182e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 16,
+      "zero_modes": 0,
+      "relative_rms": 3.497870203046663e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 17,
+      "zero_modes": 0,
+      "relative_rms": 3.392977546178081e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 18,
+      "zero_modes": 0,
+      "relative_rms": 1.1437290509482914e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 19,
+      "zero_modes": 0,
+      "relative_rms": 1.9668603052250195e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 20,
+      "zero_modes": 0,
+      "relative_rms": 6.349279819160103e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 21,
+      "zero_modes": 0,
+      "relative_rms": 9.348436538771428e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 22,
+      "zero_modes": 0,
+      "relative_rms": 7.356403160313457e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 23,
+      "zero_modes": 0,
+      "relative_rms": 2.6924489827526646e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 24,
+      "zero_modes": 0,
+      "relative_rms": 2.040811116775848e-15
+    },
+    {
+      "model": "Geometric",
+      "network": 25,
+      "zero_modes": 0,
+      "relative_rms": 4.819598191291883e-15
+    }
+  ],
+  "controls": {
+    "EDR": {
+      "replaced_fraction": [
+        0.0,
+        0.0
+      ],
+      "adjacency_relative_difference": [
+        1.3509582864056706,
+        1.386609003366987
+      ],
+      "laplacian_relative_difference": [
+        0.6539631998756311,
+        0.7265336446707414
+      ],
+      "strength_relative_max": [
+        2.563514691734117,
+        6.731494312855951
+      ],
+      "laplacian_norm_change_pct": [
+        -1.1102230246251565e-14,
+        0.0
+      ]
+    },
+    "Geometric": {
+      "replaced_fraction": [
+        0.9205776173285198,
+        0.9747292418772563
+      ],
+      "adjacency_relative_difference": [
+        1.3595012589031927,
+        1.4019448281677238
+      ],
+      "laplacian_relative_difference": [
+        0.6586326125071655,
+        0.6859037217796876
+      ],
+      "strength_relative_max": [
+        0.9591663132084904,
+        1.8928384583630797
+      ],
+      "laplacian_norm_change_pct": [
+        0.0,
+        2.220446049250313e-14
+      ]
+    },
+    "Structural": {
+      "replaced_fraction": [
+        0.7461607949412827,
+        0.7967479674796748
+      ],
+      "adjacency_relative_difference": [
+        1.2391682113257168,
+        1.2734469533712838
+      ],
+      "laplacian_relative_difference": [
+        0.4335342964574994,
+        0.4727314404117913
+      ],
+      "strength_relative_max": [
+        1.1294017385030388,
+        2.8488619523718
+      ],
+      "laplacian_norm_change_pct": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "scope": {
+    "roi": 100,
+    "band_hz": [
+      4,
+      8
+    ],
+    "modes": 20,
+    "networks_per_family": 25,
+    "bootstrap_unit": "participant; conditions and fixed ensemble averaged first",
+    "intervals": "pointwise exploratory intervals conditional on fixed ensembles",
+    "fit_change": "relabelled minus own original, positive favors relabelling",
+    "panel_a": "absolute original and relabelled reconstruction R2",
+    "panel_b": "relabelled minus own family original, paired within participants",
+    "figure_distribution": "51 participant values; conditions and 25 permutations averaged within participant; boxes median/IQR, whiskers 1.5 IQR; dots include all participants",
+    "similarity": "observed spatial subspace versus own original; not dynamic equivalence"
+  }
+}

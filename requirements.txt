@@ -1,0 +1,10 @@
+# Python 3.12; versions used for the final analyses and figures.
+numpy==2.5.4
+pandas==3.1.0
+scipy==1.18.1
+matplotlib==3.11.2
+nibabel==5.4.2
+neuromaps==0.0.7
+tqdm==4.70.1
+networkx==3.7
+h5py==3.16.0
